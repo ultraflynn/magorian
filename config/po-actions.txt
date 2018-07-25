@@ -1,0 +1,10 @@
+ccept|Accept
+reject|Reject
+pending|Pending
+spo|Send to SPO
+po|Send to PO
+ft|Send to FT
+rspo|Resubmit to SPO
+rpo|Resubmit to PO
+afk|Sent to AFK
+rmafk|Removed from AFK

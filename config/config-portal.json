@@ -1,0 +1,29 @@
+{
+  "dataDirectory": "data",
+  "source": "portalqueryresults",
+  "statistics": "v1",
+  "reports": [
+    {
+      "type": "po",
+      "sections": [
+        {
+          "name": "ACTIONS",
+          "filter": ""
+        },
+        {
+          "name": "INTERVIEWS",
+          "filter": "Accept"
+        }
+      ]
+    },
+    {
+      "type": "oo",
+      "sections": [
+        {
+          "name": "LETTERS",
+          "filter": ""
+        }
+      ]
+    }
+  ]
+}

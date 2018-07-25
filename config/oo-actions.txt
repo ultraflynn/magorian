@@ -1,0 +1,2 @@
+7day|Sent 7 Day Mail
+sentmail|Sent 28 Day Mail

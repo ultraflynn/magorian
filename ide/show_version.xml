@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="show version" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="uk.co.mattbiggin.magorian.cli.Main" />
+    <module name="magorian" />
+    <option name="PROGRAM_PARAMETERS" value="version" />
+    <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <method />
+  </configuration>
+</component>

@@ -1,0 +1,30 @@
+{
+  "dataDirectory": "data",
+  "fileName": "E-Uni Tools.html",
+  "source": "unitools",
+  "statistics": "v1",
+  "reports": [
+    {
+      "type": "po",
+      "sections": [
+        {
+          "name": "ACTIONS",
+          "filter": ""
+        },
+        {
+          "name": "INTERVIEWS",
+          "filter": "Accept"
+        }
+      ]
+    },
+    {
+      "type": "oo",
+      "sections": [
+        {
+          "name": "LETTERS",
+          "filter": ""
+        }
+      ]
+    }
+  ]
+}

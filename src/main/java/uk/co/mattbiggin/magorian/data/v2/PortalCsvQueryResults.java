@@ -3,6 +3,7 @@ package uk.co.mattbiggin.magorian.data.v2;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvValidationException;
 import uk.co.mattbiggin.magorian.DateFormats;
 import uk.co.mattbiggin.magorian.config.MagorianSetup;
 import uk.co.mattbiggin.magorian.data.DataFileReadException;
@@ -81,7 +82,7 @@ public class PortalCsvQueryResults implements InterviewData {
                 }
             }
             lines = builder.build();
-        } catch (IOException e) {
+        } catch (IOException | CsvValidationException e) {
             throw new CsvSyntaxError(e);
         }
     }

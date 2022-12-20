@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GeneratedOutputTest {
     private static final List<String> OUTPUT = ImmutableList.of("a", "b", "c");
